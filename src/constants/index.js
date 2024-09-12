@@ -206,7 +206,7 @@ const projects = [
     name: "Jobbie",
     linkTo: "https://mega-project-teal.vercel.app/",
     description:
-      "This is a webcite like Linkedin. Implemented authorization using next.auth v5. Every user have an account. You can find jobs or create ones and so on...",
+      "This is a website like Linkedin. Every user have an account. You can find jobs or create ones and so on...",
     tags: [
       {
         name: "next.js",
@@ -285,7 +285,7 @@ const projects = [
     name: "Crypton",
     linkTo: "https://crypto-analyzes.netlify.app/",
     description:
-      "This is a website with all the information about crypto: news, price chart and so on",
+      "This is a website with all the information about crypto: types, news, price chart and so on...",
     tags: [
       {
         name: "react",
@@ -305,6 +305,18 @@ const projects = [
       },
       {
         name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "millify",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "moment",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "axios",
         color: "pink-text-gradient",
       },
     ],
