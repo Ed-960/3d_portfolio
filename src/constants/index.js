@@ -230,6 +230,14 @@ const projects = [
       },
       {
         name: "shadcn",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next-auth",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react-hook-form",
         color: "pink-text-gradient",
       },
     ],
@@ -300,24 +308,16 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "html-react-parser",
-        color: "blue-text-gradient",
-      },
-      {
         name: "tailwind",
         color: "pink-text-gradient",
       },
       {
+        name: "html-react-parser",
+        color: "blue-text-gradient",
+      },
+      {
         name: "millify",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "moment",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "axios",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
     image: img_4,
