@@ -205,7 +205,8 @@ const projects = [
   {
     name: "Jobbie",
     linkTo: "https://mega-project-teal.vercel.app/",
-    description: "This is a webcite like Linkedin.",
+    description:
+      "This is a webcite like Linkedin. Implemented authorization using next.auth v5. Every user have an account. You can find jobs or create ones and so on...",
     tags: [
       {
         name: "next.js",
@@ -275,12 +276,20 @@ const projects = [
       "This is a website with all the information about crypto: news, price chart and so on",
     tags: [
       {
-        name: "next.js react",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidApi",
+        name: "redux",
         color: "green-text-gradient",
+      },
+      {
+        name: "chart.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html-react-parser",
+        color: "blue-text-gradient",
       },
       {
         name: "tailwind",
