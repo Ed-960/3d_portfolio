@@ -220,6 +220,18 @@ const projects = [
         name: "tailwindCss",
         color: "pink-text-gradient",
       },
+      {
+        name: "zod",
+        color: "green-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "shadcn",
+        color: "pink-text-gradient",
+      },
     ],
     image: jobit,
     source_code_link: "https://github.com/Ed-960/Mega-project",
