@@ -16,7 +16,7 @@ import {
   figma,
   docker,
   starbucks,
-  tesla,
+  unisender,
   carrent,
   jobit,
   img_4,
@@ -117,38 +117,77 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "EPAM",
-    icon: starbucks,
+    title: "Full-stack Developer",
+    company_name: "Unipay (Moscow, Russia)",
+    icon: unisender,
     iconBg: "#383E56",
-    date: "september 2022 - jule 2023",
+    date: "August 2024 - Fegruary 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed the marketplace functionality for 'Unipay' for digital goods and services, including a dynamic catalog and storefront, using SSR and ISR in Next.js for fast loading and content updates.",
+      "Implemented seller authorization in the personal account using NextAuth.js (OAuth, JWT).",
+      "Designed a user-friendly personal account for managing products, notifications, and profiles, optimized for SEO with server-side metadata generation.",
+      "Optimized data handling with Prisma and PostgreSQL, speeding up seller onboarding through efficient queries and caching.",
+      "Technologies: Next.js (SSR, ISR, SEO), TypeScript, Redux, Tailwind CSS, Node.js, Express.js, Prisma, PostgreSQL, Backblaze B2, NextAuth.js.",
+      "Result: Accelerated seller onboarding by 30% and improved platform usability.",
     ],
   },
   {
-    title: "student",
-    company_name: "EPAM",
+    title: "Junior Software Developer (Frontend, React)",
+    company_name: "EPAM Systems (Armenia)",
     icon: starbucks,
     iconBg: "#E6DEDD",
-    date: "december 2021 - august 2022",
+    date: "August 2023 - March 2024",
     points: [
-      "at this course we learnt advanced javascript, typescript, redux, unit testing, css frameworkes as Material UI, bootstrap, TailwindCss",
-      "Developing and maintaining a lot of web applications using React.js and other related technologies during this course.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed scalable web applications using React with Redux for state management as part of the Equiniti project for a major client.",
+      "Integrated frontend with backend via RESTful API, using JWT for authentication and request security.",
+      "Optimized component loading, reducing rendering time by 20% through best practices.",
+      "Participated in Agile processes, including daily standups, sprint planning, and releases, ensuring high-quality feature delivery.",
+      "Technologies: React, Redux, TypeScript, REST, JWT.",
     ],
   },
   {
-    title: "student",
-    company_name: "TUMO - CENTER FOR CREATIVE TECHNOLOGIES",
-    icon: tesla,
+    title: "Full-stack Developer",
+    company_name: "My Own Startup",
+    icon: "",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: ["Web programming cource.", "3D Modelling.", "Robotics."],
+    date: "In process",
+    points: [
+      "Developed a job posting platform with professional social networking features, facilitating easy job searches and user interaction.",
+      "Implemented an authentication system using Redis for session storage, introducing advanced authorization mechanisms for enhanced security.",
+      "Optimized asynchronous processes, such as notification delivery, with BullMQ, enabling efficient handling of heavy operations and improving performance.",
+      "Designed and integrated backend logic using Nest.js and GraphQL, configured data storage in PostgreSQL, and caching in Redis.",
+      "Set up task automation with cron jobs and Docker for containerization, ensuring scalability and ease of deployment.",
+      "Integrated third-party services: AWS for cloud infrastructure, Telegraf for Telegram API, and Stripe for payment processing.",
+      "Built the frontend using Next.js with TypeScript, Zustand for state management, Zod and React Hook Form for form validation, and shadcn and Tailwind CSS for a modern interface. Used graphql-codegen and Apollo for efficient GraphQL queries.",
+      "Status: The startup is in active development, focusing on refining functionality and scaling.",
+      "Technologies: Next.js, TypeScript, Zustand, Zod, React Hook Form, shadcn, Tailwind CSS, graphql-codegen, Apollo, Nest.js, GraphQL, PostgreSQL, Redis, Docker, cron, BullMQ, AWS, Telegraf, Stripe.",
+    ],
+  },
+  {
+    title: "Intern (Frontend and Backend Developer)",
+    company_name: "EPAM Systems (Armenia)",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "October 2022 - August 2023",
+    points: [
+      "Developed responsive interfaces in React with cross-browser compatibility.",
+      "Integrated frontend with backend via GraphQL (Apollo) and WebSockets for real-time updates.",
+      "Built and optimized GraphQL APIs with Nest.js, improving query performance.",
+      "Participated in Agile processes, including standups, planning, and releases for enterprise projects.",
+      "Technologies: React, GraphQL, Apollo, WebSockets, Nest.js.",
+    ],
+  },
+  {
+    title: "Training Program Participant (Frontend and Backend Development)",
+    company_name: "EPAM Software Engineering School (Armenia)",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "February 2022 - September 2022",
+    points: [
+      "Mastered modern technologies: HTML5, CSS3, JavaScript, TypeScript, React, Redux, Node.js, Express, Nest.js.",
+      "Worked with PostgreSQL, MongoDB, Docker, AWS (S3, EC2), Git.",
+      "Studied algorithms and data structures for problem-solving.",
+    ],
   },
 ];
 
@@ -244,51 +283,51 @@ const projects = [
     image: jobit,
     source_code_link: "https://github.com/Ed-960/Mega-project",
   },
-  {
-    name: "Social-media app",
-    linkTo: "https://social-mediathreads.vercel.app/",
-    description: "Full Social Media App with both backend and front-end sides.",
-    tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongoDb",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "webhooks",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "zod",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "shadcn",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "uploadThing",
-        color: "green-text-gradient",
-      },
-      {
-        name: "clerk",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/Ed-960/Social_media1.0_vers",
-  },
+  // {
+  //   name: "Social-media app",
+  //   linkTo: "https://social-mediathreads.vercel.app/",
+  //   description: "Full Social Media App with both backend and front-end sides.",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "typescript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "mongoDb",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "webhooks",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "zod",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "shadcn",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "uploadThing",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "clerk",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/Ed-960/Social_media1.0_vers",
+  // },
   {
     name: "Crypton",
     linkTo: "https://crypto-analyzes.netlify.app/",
@@ -345,29 +384,29 @@ const projects = [
     image: img_5,
     source_code_link: "https://github.com/Ed-960/AddPromptApp",
   },
-  {
-    name: "Find a Job (mobile app)",
-    linkTo:
-      "https://expo.dev/@ed-960/react_native_tutorial?serviceType=classic",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "googleAuth",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindCss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: img_6,
-    source_code_link: "https://github.com/Ed-960/JobFinder_React_Native",
-  },
+  // {
+  //   name: "Find a Job (mobile app)",
+  //   linkTo:
+  //     "https://expo.dev/@ed-960/react_native_tutorial?serviceType=classic",
+  //   description:
+  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //   tags: [
+  //     {
+  //       name: "react native",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "googleAuth",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindCss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: img_6,
+  //   source_code_link: "https://github.com/Ed-960/JobFinder_React_Native",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
